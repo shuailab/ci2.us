@@ -1,1 +1,1 @@
-# ci2.us
+# CI2: A Nerds' Jounral
