@@ -37,7 +37,7 @@ paginate = 9
 [params]
     description = "A nerds' journal."
     summary_length = 360
-    github_edit = "https://github.com/cisquare/ci2.us/tree/master/content/post/"
+    github_edit = "https://github.com/cisquare/ci2.us/edit/master/content/"
     footer = "&copy; CI&#178; | [Github](https://github.com/cisquare) | [Google](https://www.google.com)"
 
 [params.text]
