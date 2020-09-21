@@ -1,2 +1,2 @@
-# CI&sub2: A Nerds' Jounral
+# CI &sub2: A Nerds' Jounral
 
