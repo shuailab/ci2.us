@@ -1,0 +1,13 @@
+<!--utter-->
+{{- if .Site.Params.utter.enable -}}
+ <br></br>
+  <hr style="border:0;height:3.5px; background-image: linear-gradient(to right, #b7a57a , #85754d, #4b2e83, #85754d, #b7a57a); " width="90%" color=#b7a57a size=3>
+  <div id="utter-container"></div>
+  <script src="https://utteranc.es/client.js"
+    repo= '{{ .Site.Params.utter.repo }}'
+    issue-term= "{{ .Site.Params.utter.issueTerm }}"
+    theme= '{{ .Site.Params.utter.theme }}'
+    crossorigin= "anonymous"
+    async>
+  </script> 
+{{- end }}

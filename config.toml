@@ -1,0 +1,57 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Curious Incidents & Crazy Ideas"
+theme = "hugo-xmag"
+googleAnalytics = "UA-178518731-1"
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+preserveTaxonomyNames = true
+footnotereturnlinkcontents = "↩"
+hasCJKLanguage = true
+enableEmoji = true
+paginate = 9
+
+[permalinks]
+    post = "/post/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+[[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 3
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 4
+[[menu.main]]
+    name = "Subscribe"
+    url = "/index.xml"
+
+[params]
+    description = "A nerds' journal."
+    summary_length = 360
+    github_edit = "https://github.com/cisquare/ci2.us/edit/master/content"
+    footer = "&copy; CI&#178; | [Github](https://github.com/cisquare) | [Google](https://www.google.com)"
+
+[params.text]
+    about_author="Author Bio"
+     author_delimiter = " / "
+    back = "&larr; Back to Home"
+    edit = "Edit this page &rarr;"
+    truncated = "&hellip;"
+    tags = "Keywords: "
+  title_categories = "Columns"
+  title_tags = "Keyword List"
+    
+[params.utter]
+    enable = true
+    repo = "cisquare/comments"
+    issueTerm = "pathname" # choose issue in terms of pathname/url/title
+    theme = "github-light"
