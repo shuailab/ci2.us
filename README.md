@@ -1,2 +1,2 @@
-# CI<sub>2</sub>: A Nerds' Jounral
+# CI&sub2: A Nerds' Jounral
 
