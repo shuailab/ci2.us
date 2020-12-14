@@ -3,23 +3,6 @@ body {
   line-height: 1.5em;
   background: #fafafa;
 }
-a{
-  color: #10b7c9;
-  text-decoration: none;
-}
-
-main { margin-bottom: 15px; }
-
-/* header and footer areas */
-.header {
-  border-top:7px solid #1d6c80;
-  border-top-left-radius: 15px;
-  border-top-right-radius:15px;
-/*  outline:1px dashed #b7a57a;*/
-  border-bottom: 6px double #1d6c80;
-  text-align: center;
-  padding: 10px 0 5px;
-}
 .header div, .container, .copyright, .menu {
   max-width: 1100px;
   margin: auto;
@@ -30,86 +13,28 @@ main { margin-bottom: 15px; }
 @media (max-width: 930px) {
   .page .container { padding: 0; }
 }
-.header .banner-wrapper, .page .header .banner-wrapper {
-  max-width: 100%;
-  background: rgba(80, 203, 210, 0.1);
+main { margin-bottom: 15px; }
+
+/* header and footer areas */
+.header {
+  border-top:9px solid #4b2e83;
+  border-top-left-radius: 70px;
+  border-top-right-radius:70px;
+  outline:1px dashed #b7a57a;
+  border-bottom: 7px double #b7a57a;
+  text-align: center;
+  padding: 15px 0 5px;
 }
 .head-meta, .menu {
   display: flex;
   justify-content: space-between;
 }
 .header, .list section, article { background: #fff; }
-/*.banner { font-size: 4em; }*/
-.banner {
-  font-size: inherit;
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-}
+.banner { font-size: 4em; }
 .banner .text {
   display: block;
   line-height: 1em;
 }
-.header .banner-image, .menu-top {
-  display: table-cell;
-  vertical-align: middle;
-}
-.header .banner-image {
-  margin-left: 0;
-  padding-left: 0;
-}
-.menu-top {
- /* display: block;*/
- /* padding-left: 0;*/
-  float:right;
-  margin: 20px 0px 20px auto;
-  max-width: 1000px;
-  cursor: pointer;
-}
-/*.menu-top li:first-child { border-left: 1px}*/
-.menu-top li:first-child {border-top:2px dashed #1d6c80; }
-.menu-top li {
-  position: relative;
-  display: inline-block;
-  display: flex;
-  width: 7em;
-  height: 2em;
-  font-size:16px;
-  /*word-break: break-all;*/
-  border-bottom: 2px dashed #1d6c80;
-  /*transition: background .3s;*/
-  padding: 0.15em 0.15em;
-  font-weight: bolder;
-  align-items: center;
-}
-.menu-top li:hover { background: #1d6c80; }
-.menu-top li a { display: flex; color: #1d6c80; padding: 5px;}
-.menu-top li:hover a { background-color: #1d6c80;  color: #fff;}
-.sub-menu {
-  display: none;
-  position: absolute;
-  padding-left: 0;
-  float:left;
-  margin: auto auto;
-  max-width: 1000px;
-  width: inherit;
-}
-.sub-menu li{
-  display: none;
-}
-/*
-.menu-top li:hover ul.sub-menu {
-  display: block;
-  flex-direction: column;
-}*/
-/*.sub-menu li:hover {background-color:#1d6c80;}*/
-/*.menu-top li ul li a {display: flex; color: #1d6c80; padding: 5px;}
-.sub-menu li:hover a { background-color: #1d6c80;  color: #fff;}
-.menu-top >li > ul {
-  text-decoration: none;
-  list-style: none;
-}*/
-.footer { background: #138376; }
 .list {
   display: flex;
   flex-wrap: wrap;
@@ -150,7 +75,7 @@ h1 a:hover { text-decoration: underline; }
 article { padding: 1em; }
 .article-meta {
   text-decoration: none;
-  background: linear-gradient(to bottom,#93D4D4,10%, #fafafa);
+  background: linear-gradient(to bottom,#b7a57a,10%, #fafafa);
   padding: 5px;
   border-radius: 30px;
 }
@@ -163,11 +88,11 @@ article { padding: 1em; }
 .pagination li, .terms li { display: inline; }
 .pagination a { padding: 0 .2em; }
 .footer {
-  background: #1d6c80;
+  background: #4b2e83;
   padding: 1em 0;
 }
-.footer, .footer a { color: #fff; }
-.copyright, .copyright a { color: #000; }
+.footer, .footer a { color: #b7a57a; }
+.copyright, .copyright a { color: #fff; }
 .menu {
   margin-bottom: .5em;
   flex-wrap: wrap;
@@ -178,10 +103,9 @@ article { padding: 1em; }
 }
 .menu a { padding: .5em; }
 .menu a:hover {
-  color: #1EACA6;
-  background: #1d6c80;
+  color: #fff;
+  background: #4b2e83;
 }
-
 
 hr {
   border-style: dashed;
@@ -217,12 +141,6 @@ table {
 table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
 tr:nth-child(even) { background: #eee }
-
-
-.date-author {
-  margin-bottom: .5em;
-  color: #666;
-}
 
 .thumbnail {
   height: 5.1em;

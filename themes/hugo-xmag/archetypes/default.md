@@ -1,4 +1,3 @@
 ---
-title: ''
-date: ''
+draft: true
 ---

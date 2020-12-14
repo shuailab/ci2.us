@@ -18,27 +18,80 @@ paginate = 9
     name = "Home"
     url = "/"
     weight = 1
+    
 [[menu.main]]
     name = "About"
     url = "/about/"
     weight = 2
+    
 [[menu.main]]
-    name = "Categories"
-    url = "/categories/"
+    name = "Contribute"
+    url = "/contribute/"
     weight = 3
-[[menu.main]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 4
 [[menu.main]]
     name = "Subscribe"
     url = "/index.xml"
+    weight = 4
 
+[[menu.top]]
+  name = "Homepage"
+  url = "/"
+  weight = 10
+
+[[menu.top]]
+  name = "About"
+  url = "/about/"
+  weight = 20
+  
+[[menu.top]]
+  name = "Article"
+  url = "/articles/"
+  weight = 30
+
+[[menu.top]]
+  name = "Submit"
+  url = "/contribute/"
+  weight = 40
+  
+[[menu.top]]    
+    name="Search"
+    weight= 50
+
+[[menu.top]]
+    parent = "Search"
+    name = "1-Categories"
+    url = "/categories/"
+    weight = 1
+[[menu.top]]
+    parent = "Search"
+    name = "2-Tags"
+    url = "/tags/"
+    weight = 2
+
+[[menu.top]]
+    parent = "Search"
+    name = "3-Dates"
+    url = "/dates/"
+    weight = 3
+    
 [params]
     description = "A nerds' journal."
     summary_length = 360
     github_edit = "https://github.com/cisquare/ci2.us/edit/master/content/"
     footer = "&copy; CI&#178; | [Github](https://github.com/cisquare) | [Google](https://www.google.com)"
+
+[params.banner]
+  src = "/img/logo.pdf"
+  alt = "CI2's logo"
+
+[[params.banner.source]]
+  media = "(min-width: 715px)"
+  srcset = "/img/logo-title.png"
+  
+[[params.banner.source]]
+  media = "(max-width: 380px)"
+  srcset = "/img/logo-sub.pdf"
+  
 
 [params.text]
     about_author="Author Bio"

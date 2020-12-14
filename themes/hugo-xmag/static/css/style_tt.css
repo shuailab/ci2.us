@@ -64,13 +64,12 @@ main { margin-bottom: 15px; }
   float:right;
   margin: 20px 0px 20px auto;
   max-width: 1000px;
-  cursor: pointer;
 }
 /*.menu-top li:first-child { border-left: 1px}*/
 .menu-top li:first-child {border-top:2px dashed #1d6c80; }
 .menu-top li {
   position: relative;
-  display: inline-block;
+  display: block;
   display: flex;
   width: 7em;
   height: 2em;
@@ -85,31 +84,22 @@ main { margin-bottom: 15px; }
 .menu-top li:hover { background: #1d6c80; }
 .menu-top li a { display: flex; color: #1d6c80; padding: 5px;}
 .menu-top li:hover a { background-color: #1d6c80;  color: #fff;}
-.sub-menu {
-  display: none;
-  position: absolute;
+/*.sub-menu {
+  display: block;
   padding-left: 0;
   float:left;
+  position: absolute;
+  display:none;
   margin: auto auto;
   max-width: 1000px;
-  width: inherit;
 }
-.sub-menu li{
-  display: none;
-}
-/*
-.menu-top li:hover ul.sub-menu {
+.menu-top li:hover .sub-menu li{
   display: block;
-  flex-direction: column;
-}*/
-/*.sub-menu li:hover {background-color:#1d6c80;}*/
-/*.menu-top li ul li a {display: flex; color: #1d6c80; padding: 5px;}
+}
+.sub-menu li:hover{background-color:#1d6c80;}
+.sub-menu li a {display: flex; color: #1d6c80; padding: 5px;}
 .sub-menu li:hover a { background-color: #1d6c80;  color: #fff;}
-.menu-top >li > ul {
-  text-decoration: none;
-  list-style: none;
-}*/
-.footer { background: #138376; }
+.footer { background: #138376; }*/
 .list {
   display: flex;
   flex-wrap: wrap;
