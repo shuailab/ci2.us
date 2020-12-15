@@ -28,10 +28,17 @@ paginate = 9
     name = "Contribute"
     url = "/contribute/"
     weight = 3
+    
 [[menu.main]]
     name = "Subscribe"
     url = "/index.xml"
     weight = 4
+
+    
+[[menu.main]]
+    name = "Feedback"
+    url = "/feedback/"
+    weight = 5
 
 [[menu.top]]
   name = "Homepage"
@@ -50,7 +57,7 @@ paginate = 9
 
 [[menu.top]]
   name = "Submit"
-  url = "/contribute/"
+  url = "/submission/"
   weight = 40
   
 [[menu.top]]    
@@ -60,19 +67,23 @@ paginate = 9
 [[menu.top]]
     parent = "Search"
     name = "1-Categories"
+    identifier = "search"
     url = "/categories/"
-    weight = 1
+    weight = 51
+    
 [[menu.top]]
     parent = "Search"
     name = "2-Tags"
+    identifier = "tags"
     url = "/tags/"
-    weight = 2
+    weight = 52
 
 [[menu.top]]
     parent = "Search"
     name = "3-Dates"
+    identifier = "dates"
     url = "/dates/"
-    weight = 3
+    weight = 53
     
 [params]
     description = "A nerds' journal."

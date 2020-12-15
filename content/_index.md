@@ -1,3 +1,3 @@
 ---
-title: Hugo XMag
+title: Curious Incidents & Crazy Ideas
 ---
